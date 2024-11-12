@@ -1,0 +1,61 @@
+body {
+    background-color: #ffffff; /* Super white background */
+    color: #000000; /* Black text color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px; /* Add padding to the body */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    min-height: 100vh; /* Full height */
+}
+
+.container {
+    background-color: #ffffff; /* White background for the "page" */
+    border-radius: 8px; /* Rounded corners */
+    padding: 30px;
+    max-width: 600px; /* Max width for the container */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Space from the top */
+    padding-bottom: 50px; /* Extend the bottom padding */
+}
+
+h1 {
+    margin-bottom: 15px; /* Space below the heading */
+    font-size: 2.5em; /* Larger font size for the name */
+    color: #000000; /* Black color for the name */
+    text-align: center; /* Center the name */
+}
+
+h2 {
+    margin: 15px 0; /* Space above and below the subheading */
+    font-size: 1.5em; /* Slightly larger font size for the subheading */
+    visibility: hidden; /* Hide the heading but keep space */
+}
+
+.spacer {
+    height: 30px; /* Height of the empty space */
+}
+
+p {
+    line-height: 1.6; /* Better readability */
+    margin: 10px 0; /* Space between paragraphs */
+    font-size: 1.2em; /* Increase font size for paragraphs */
+}
+
+a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+code {
+    background-color: #f0f0f0; /* Light gray background for code */
+    color: #000000; /* Black text for code */
+    padding: 2px 4px; /* Padding for code */
+    border-radius: 4px; /* Rounded corners for code */
+}
+
